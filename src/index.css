@@ -1,44 +1,13 @@
-@font-face {
-    font-family: 'Avenir';
-    src: url(assets/fonts/avenir.ttc);
-    font-style: normal;
-    font-weight: 400;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@font-face {
-    font-family: 'ITC Avant Garde Gothic';
-    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_bk.otf);
-    font-style: normal;
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic';
-    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_md.otf);
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic';
-    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_demi.otf);
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'ITC Avant Garde Gothic';
-    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_bold.otf);
-    font-style: normal;
-    font-weight: 600;
-}
-
-html {
-    font-family: 'ITC Avant Garde Gothic', sans-serif;
-    font-weight: 400;
-    margin: 0;
-}
-
-* {
-    box-sizing: border-box;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
