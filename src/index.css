@@ -1,34 +1,34 @@
 @font-face {
     font-family: 'Avenir';
-    src: url(fonts/avenir.ttc);
+    src: url(assets/fonts/avenir.ttc);
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'ITC Avant Garde Gothic';
-    src: url(fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_bk.otf);
+    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_bk.otf);
     font-style: normal;
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'ITC Avant Garde Gothic';
-    src: url(fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_md.otf);
+    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_md.otf);
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'ITC Avant Garde Gothic';
-    src: url(fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_demi.otf);
+    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_demi.otf);
     font-style: normal;
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'ITC Avant Garde Gothic';
-    src: url(fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_bold.otf);
+    src: url(assets/fonts/itc_avant_garde_gothic_pro/itc_avant_garde_gothic_pro_bold.otf);
     font-style: normal;
     font-weight: 600;
 }

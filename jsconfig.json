@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src/modules",
+      "paths": {
+        "@components/*": ["./components/*"],
+        "@common/*": ["./common/*"],
+        "@constants/*": ["./constants/*"],
+      },
+      "allowSyntheticDefaultImports": true,
+      "declaration": false
+    },
+    "include": ["src/**/*"]
+  }
