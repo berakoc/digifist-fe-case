@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# digifist-frontend-assignment
+A simple commercial React app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<table>
+    <tr>
+        <td>Desktop</td>
+        <td>Tablet</td>
+        <td>Mobile</td>
+    </tr>
+    <tr>
+        <td><img src='https://i.ibb.co/jD6TP11/desktop-design.png'></td>
+        <td><img src='https://i.ibb.co/G2VkgPC/tablet-design.png'></td>
+        <td><img src='https://i.ibb.co/YX6TzwH/mobile-design.png'></td>
+    </tr>
+</table>
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To start the app locally use the following commands:
 
-### `npm start`
+```sh
+npm install && npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If you get any error, it is possible that it's caused by mismatched node version. First install `nvm` then write the commands below to your terminal:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```sh
+nvm install
+nvm use
+```
 
-### `npm test`
+## Documentation
+### Composition and Atomic Design
+Composition is indeed one of the crucial pillars of React programming. To achieve this neat goal I utilized [Atomic Design Methodology](https://atomicdesign.bradfrost.com/chapter-2/). I was careful about not exceeding a predefined number of lines in any function to increase readability and maintainability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Swiper
+The hardest part of the project for me was to create a customizable swiper from the scratch for different screen sizes and orientations. I did lots of maths on paper with various schemas ans drawings in order to obtain an adaptive swiper. It was an utterly educative process for me since this was the first time I attempted to create a swiper from the scratch (Some calls it carousel).
 
-### `npm run build`
+### Hooks
+I relied on hooks heavily for various reasons from intricate business logic to data fetching. They saved me a lot of time and further made the project easy to read and understand.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Last Thoughts
+The time given for the project was short. Assuming I was working for my current company at the same time, I had only a scarce oppurtunity for building the basis of the project. I ,intentionally, didn't add any unit tests since I believe that in most cases they are waste of time. 
