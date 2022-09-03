@@ -1,0 +1,41 @@
+.ProductCard {
+    width: 148px;
+}
+
+.productImage {
+    width: 148px;
+    height: 200px;
+}
+
+.productImage > img {
+    width: 100%;
+}
+
+.productText {
+    font-family: Avenir, sans-serif;
+    line-height: 20.48px;
+}
+
+.productName {
+    font-weight: 400;
+}
+
+.productPrice {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 450px) {
+    .ProductCard {
+        width: 230px;
+    }
+
+    .productImage {
+        width: 230px;
+        height: 310px;
+    }
+
+    .currencyColorContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+}

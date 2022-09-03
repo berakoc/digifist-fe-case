@@ -1,0 +1,47 @@
+.Swiper {
+    display: flex;
+    width: calc(100vw - 48px);
+    align-items: center;
+    position: relative;
+}
+.Swiper > div:not(:last-of-type) {
+    margin-right: 12px;
+}
+
+.swiperButton {
+    display: none;
+    position: fixed;
+}
+
+@media screen and (min-width: 450px) {
+    .Swiper > div:not(:last-of-type) {
+        margin-right: 32px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Swiper {
+        transition: all 0.3s ease-in-out;
+        width: auto;
+        display: inline-flex;
+    }
+
+    .swiperButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 16px;
+        border: 1px solid var(--color-primary-light);
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .rightButton {
+        left: calc(100vw - 100px);
+    }
+
+    .leftButton {
+        left: calc(50vw + 60px);
+        transform: rotate(180deg);
+    }
+}

@@ -1,0 +1,12 @@
+.Hero {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 450px) {
+    .Hero {
+        width: 50%;
+        height: 100vh;
+        object-fit: cover;
+    }
+}

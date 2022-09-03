@@ -1,8 +1,36 @@
 @font-face {
     font-family: 'Avenir';
-    src: url(../public/assets/fonts/avenir.ttc);
+    src: url(../public/assets/fonts/avenir/avenir-light.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(../public/assets/fonts/avenir/avenir-book.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(../public/assets/fonts/avenir/avenir-medium.ttf);
     font-style: normal;
     font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(../public/assets/fonts/avenir/avenir-heavy.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(../public/assets/fonts/avenir/avenir-black.ttf);
+    font-style: normal;
+    font-weight: 600;
 }
 
 @font-face {
@@ -33,6 +61,13 @@
     font-weight: 600;
 }
 
+:root {
+    --color-primary: #000000;
+    --color-primary-light: #666666;
+    --color-accent: #FFFFFF;
+    --mobile-screen-max-width: 450px;
+}
+
 body {
   margin: 0;
   font-family: 'ITC Avant Garde Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -44,4 +79,5 @@ body {
 
 * {
     box-sizing: border-box;
+    font-size: 12.8px;
 }

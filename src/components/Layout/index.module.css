@@ -1,0 +1,22 @@
+.Layout {
+    padding: 248px 24px 64px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 450px) {
+    .Layout {
+        position: relative;
+        padding: 0 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .Layout {
+        padding: 0 120px;
+    }
+}
