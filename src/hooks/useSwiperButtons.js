@@ -26,7 +26,6 @@ export default function useSwiperButtons({
                 swiperRef.current.style.left = `${parseInt(swiperRef.current.style.left) + swipeAmount}px`;
             }
         } else if (direction === SwiperButtonDirection.RIGHT) {
-            console.log(swiperRef.current.scrollWidth)
             if (swiperRef.current.scrollWidth - window.innerWidth / 2 + parseInt(swiperRef.current.style.left) - swipeAmount < - horizontalLayoutPadding * 2) {
                 swiperRef.current.style.left = `${- swiperRef.current.scrollWidth + window.innerWidth / 2 - 2 * horizontalLayoutPadding}px`;
             } else {

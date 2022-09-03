@@ -49,3 +49,7 @@ export const SwiperButtonDirection = {
     LEFT: 'LEFT',
     RIGHT: 'RIGHT',
 }
+
+export const LocalApiKey = {
+    PRODUCTS: 'products',
+}
